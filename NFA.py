@@ -28,23 +28,26 @@ class NFA:
         if not self.estadosFinais:
                 raise("Initialization Error", "deve existir pelo menos um estado final")
         estadosAtuais = []
+        resposta = ""
         estadosAtuais.append(self.estadoInicial)
         for simbolo in sentenca.split():
                 simbolo = self.processaSimbolo(simbolo)
                 aux = []
                 for estadoAtual in estadosAtuais:
-                    for cadaTransicao in self.transicao[estadoAtual][simbolo]:
-                        aux.append(cadaTransicao)
-                estadosAtuais = aux
+                    for cadaTransicao in self.transicao[estadoAtual].get(simbolo):
+                        if cadaTransicao != None:
+                            aux.append(cadaTransicao)
+                estadosAtuais = self.epsilonAlcancavel(aux)
+                if estadosAtuais
+                
         self.responde(estadosAtuais, sentenca)
         
     def responde(self, estadosAtuais, sentenca):
-        auxResposta = ""        
-        for estadoAtual in estadosAtuais: 
-            if estadoAtual in self.estadosFinais:
-                auxResposta += estadoAtual
-        if auxResposta:
-            print("A sentenca '" + sentenca + "' foi reconhecida pelo automato com estado final " + auxResposta + ".")
-        else:
-            print("A sentenca '" + sentenca + "' nao foi reconhecida pelo automato.")
-
+            
+    def epsilonAlcancavel(self,estadosAtuais):
+        epsilonAlcancavel = estadosAtuais
+        for estado in epsilonAlcancavel:
+            temp = self.transicao.get(estado,{}).get(self.epsilon,[])
+            if temp != [] and temp not in epsilonAlcancavel:
+                epsilonAlcancavel.append(temp)
+        return epsilonAlcancavel
