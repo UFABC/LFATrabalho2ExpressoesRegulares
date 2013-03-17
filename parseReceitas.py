@@ -1,7 +1,7 @@
 import StringIO
 import gzip
 import urllib2
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup4
 from unicodedata import normalize 
 
 # Funcao que extrai a lista de ingredientes de uma html de receitas do receitas.com
