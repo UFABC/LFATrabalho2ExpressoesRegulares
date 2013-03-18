@@ -1,14 +1,14 @@
-from NFA import NFA
-
 class ER:
-    def __init__(self, operadores = {}):
+    def __init__(self, processaSimbolo = None, operadores = {}):
         self.alfabeto = set()
         self.corpo = []
         self.operacao = None
         self.op_num_args = operadores
         self.operadores = operadores.keys()
-        self.processaSimbolo = lambda x : x.lower()
-            
+        if processaSimbolo:
+            self.processaSimbolo = processaSimbolo
+        else:
+            self.processaSimbolo = lambda x : x
     def criarER(self,lista):
         pilha = []
         pilha.append(lista[0])
@@ -19,8 +19,7 @@ class ER:
             if pilha[topo] in self.operadores:
                 ultimoOperador = len(pilha)
             else:
-                nfa = NFA(processaSimbolo = self.criarProcessaSimbolo)
-                nfa = nfa.criarNFABasico(pilha[topo])
+                nfa = self.criarNFABasico(pilha[topo])
                 pilha.append(nfa)
                 operador = pilha[ultimoOperador]
                 distancia = topo - ultimoOperador
@@ -28,39 +27,27 @@ class ER:
                     args = []
                     while args < distancia:
                         args.append(pilha.pop())
-                    self.criarERBasica(operador, args)
-            
+                        self.criarERBasica(operador, args)
             pilha.append(lista[proximaPosicao])
             proximaPosicao += 1
             
-            
     def uniao(self, sentenca):
         resultado = []
-        resultado.append(self.corpo[0].executa(sentenca))
+        resultado.append(self.corpo[0](sentenca))
         if resultado:
-            resultado.append(self.corpo[1].executa(sentenca))
+            resultado.append(self.corpo[1](sentenca))
         return resultado
     
     def estrela(self, sentenca):
         resultado = []
-        temp = []
-        pedaco = ""
-        sentencas = []
-        while  temp != None:
-            temp = self.corpo[0].executa(sentenca)
-            
-            if temp:
-                resultado.append(temp)
-                   
+        reconhece = True
+        while reconhece:
+            temp = self.corpo[0](sentenca)       
         
     def concatenacao(self, sentenca):
         resultado =[]
-        temp = 
-        temp = corpo[0].executa(sentenca)
-    
-    def dividirSentenca(self, sentenca, tamanho, variasVezes = False):
-        divisoes  = []
-        
+        temp = corpo[0]()
+         
         
     def executa(self, sentenca):
         

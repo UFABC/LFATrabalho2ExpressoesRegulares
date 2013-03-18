@@ -1,7 +1,6 @@
 class NFA:
     def __init__(self, processaSimbolo = None):
         self.estados = []
-        self.tamanho = 0
         self.alfabeto = set([])
         self.transicao = {}
         self.estadoInicial = None
@@ -10,12 +9,6 @@ class NFA:
             self.processaSimbolo = processaSimbolo
         else:
             self.processaSimbolo = lambda x: x
-    
-    def criarNFABasico(self, sentenca):
-        self.tamanho = len(sentenca)
-        for i,letra in enumerate(sentenca):
-            self.transicao['q' + str(i)] = {letra:'q' + str(i)}
-        del self.transicao[len(sentenca) - 1]                                 
     
     def adiciona_estado(self, nome, transicao, st_inic=0, st_final=0):
         self.estados.append(nome)
@@ -35,9 +28,9 @@ class NFA:
         if not self.estadosFinais:
                 raise("Initialization Error", "deve existir pelo menos um estado final")
         estadosAtuais = []
-        resposta = []
+        resposta = ""
         estadosAtuais.append(self.estadoInicial)
-        for simbolo in sentenca[0:self.tamanho]:
+        for simbolo in sentenca.split():
                 simbolo = self.processaSimbolo(simbolo)
                 aux = []
                 for estadoAtual in estadosAtuais:
@@ -45,20 +38,12 @@ class NFA:
                         if cadaTransicao != None:
                             aux.append(cadaTransicao)
                 estadosAtuais = self.epsilonAlcancavel(aux)
-                if estadosAtuais != []:
-                    resposta.append(simbolo)                
-        self.responde(estadosAtuais, resposta, sentenca)
+                if estadosAtuais
+                
+        self.responde(estadosAtuais, sentenca)
         
-    def responde(self, estadosAtuais, resposta, sentenca):
-        reconheceu = False
-        for estado in estadosAtuais:
-            if estado in self.estadosFinais:
-                reconheceu = True
-        if reconheceu:
-            return resposta
-        else:
-            return None
-                            
+    def responde(self, estadosAtuais, sentenca):
+            
     def epsilonAlcancavel(self,estadosAtuais):
         epsilonAlcancavel = estadosAtuais
         for estado in epsilonAlcancavel:
