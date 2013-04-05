@@ -1,3 +1,8 @@
+"""
+Bruno Cesar RA: 11078407
+Juliano Gomes RA: 1118509
+"""
+
 class ER:
     def __init__(self, processaSimbolo = None, operadores = {}):
         self.alfabeto = set()
