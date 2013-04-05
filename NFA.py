@@ -17,7 +17,7 @@ class NFA:
             self.processaSimbolo = lambda x: x
         self.simboloMap = {}
         self.epsilon = "epsilon"
-        self.simbolosSeusEstados = [{}]
+        self.simbolosESeusEstados = [] # Uma dupla sertaneja para la de legal, que ajudara todos a mapearmos a resposta
 
     def criarNFABasico(self, sentenca):
         self.tamanho = len(sentenca)
@@ -43,20 +43,22 @@ class NFA:
         if not self.estadosFinais:
                 raise("Initialization Error", "deve existir pelo menos um estado final")
         estadosAtuais = []
+        self.simbolosESeusEstados = []
+        
         estadosAtuais.append(self.estadoInicial)
 #        for simbolo in self.splitNFA(sentenca):
         for simbolo in sentenca:
-            simbolo = self.processaSimbolo(simbolo)
-            estadosAtuais = self.epsilonAlcancavel(estadosAtuais)
-            aux = []
+            simboloProcessado = self.processaSimbolo(simbolo)
+            proximosEstados = []
             for estadoAtual in estadosAtuais:
                 try:
-                    for cadaTransicao in self.transicao[estadoAtual][simbolo]:
-                        aux.append(cadaTransicao)
+                    for cadaTransicao in self.transicao[estadoAtual][simboloProcessado]:
+                        proximosEstados.append(cadaTransicao)
                 except KeyError:
-                    aux.append(estadoAtual)
-            estadosAtuais = aux
-            self.simbolosSeusEstados.append({simbolo, estadosAtuais})
+                    pass
+            estadosAtuais = self.epsilonAlcancavel(estadosAtuais)
+            estadosAtuais += proximosEstados
+            self.simbolosESeusEstados += [(simbolo, estadosAtuais)]
                     # adiciona nas variaveis os caracteres de importancia
 
         self.responde(estadosAtuais, sentenca)
@@ -83,7 +85,7 @@ class NFA:
                         if cadaTransicao not in aux:
                             aux.append(cadaTransicao)
                 except KeyError:
-                    aux.append(estadoAtual)
+                    pass
             return aux
     
     def splitNFA(self, sentenca):

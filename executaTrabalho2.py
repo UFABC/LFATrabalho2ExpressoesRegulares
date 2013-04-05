@@ -57,17 +57,40 @@ def leituraReceitas():
     return resultado
 
 def trataRespostaReceita(nfa):
-    for simboloEstado in nfa.simbolosSeusEstados:
-        print simboloEstado
+    quantidade = ""
+    ingrediente = ""
+    medida = ""
+    modMedida = False
+    for simboloEstado in nfa.simbolosESeusEstados:
+        temporario = simboloEstado[0]
+        print temporario
+        print simboloEstado[1]
+        for estado in simboloEstado[1]:
+            if estado in ['q1', 'q6', 'q7']:
+                quantidade += temporario
+                break
+#        elif 'q9' in estadoAtual:
+#            ingrediente += temporario
+#        elif 'q13' in estadoAtual and modMedida == False:
+#            if ingrediente.rstrip()[len(ingrediente.rstrip())-2:] == 'de':
+#                medida = ingrediente[:len(ingrediente)-3]
+#                temporario, ingrediente = '', ''
+#        elif 'q14' in estadoAtual:
+#            modMedida = True
+#            ingrediente += temporario
+    print quantidade
         
 if __name__ == "__main__":
     nfa = NFA.arquivoNFA("nfa.txt")
     nfa.processaSimbolo = processaSimboloReceita
     
     receitas = leituraReceitas()
-    for receita in receitas:
-        for linha in receita:
-            nfa.executa(linha)
+    nfa.executa("100gr manteiga".strip())
+    trataRespostaReceita(nfa)
+#    for receita in receitas:
+#        for linha in receita:
+#            nfa.executa(linha.strip())
+#            trataRespostaReceita(nfa)
 #    arquivo = open('saida.csv','w')
 #    arquivo.write('qtde;medida;ingrediente\n')
 #    for i in resultado:
