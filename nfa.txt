@@ -1,19 +1,19 @@
 criarTransicao {
     q0 = NUM:q1,q2,q3; LET:q15
-    q1 = ESP:q8; epsilon:q0
-    q2 = NEWLINE:q4; epsilon:q0
+    q1 = NUM:q1; ESP:q8; epsilon:q0
+    q2 = LET:q4; epsilon:q0
     q3 = VIR:q5; epsilon:q0
-    q4 = NUM:q6
+    q4 = LET:q4; ESP:q0; NUM:q6; epsilon:q4
     q5 = NUM:q7
-    q6 = ESP:q8; epsilon:q4
-    q7 = ESP:q8; epsilon:q4
-    q8 = LET:q8; epsilon:q4
-    q9 = ESP:q9,q10; epsilon:q8
+    q6 = NUM:q6; ESP:q8; epsilon:q4
+    q7 = NUM:q7; ESP:q8; epsilon:q4
+    q8 = LET:q9; epsilon:q4
+    q9 = LET:q9; ESP:q9,q10; epsilon:q8
     q10 = LET:q11
     q11 = LET:q12
     q12 = ESP:q13
     q13 = epsilon:q14
-    q14 = LET:q15
+    q14 = LET:q15; epsilon:q14
     q15 = ESP:q14; epsilon:q14
 }
 

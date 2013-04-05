@@ -9,7 +9,7 @@ import os
 
 def is_number(s):
     try:
-        float(s)
+        float(s.replace(',', '.'))
         return True
     except ValueError:
         return False
@@ -29,17 +29,16 @@ def processaSimboloReceita(simbolo):
     if is_number(simbolo):
         return 'NUM'
 
-    elif isinstance(simbolo, str):
-        return 'LET'
-
     elif simbolo == ' ':
         return 'ESP'
 
     elif simbolo == ',':
         return 'VIR'
 
-    elif simbolo == '/':
-        return 'NEWLINE'
+    elif simbolo.isalpha() or simbolo in ['(', ')']:
+        return 'LET'
+    elif simbolo == '1/2':
+        return 'NUM'
     else:
         return 'ERROR'
 
@@ -56,41 +55,46 @@ def leituraReceitas():
 
     return resultado
 
-def trataRespostaReceita(nfa):
+def trataRespostaReceita(nfa, arquivo):
     quantidade = ""
     ingrediente = ""
     medida = ""
-    modMedida = False
     for simboloEstado in nfa.simbolosESeusEstados:
         temporario = simboloEstado[0]
-        print temporario
-        print simboloEstado[1]
+        if simboloEstado == temporario:
+            arquivo.write(simboloEstado[1])
         for estado in simboloEstado[1]:
             if estado in ['q1', 'q6', 'q7']:
-                quantidade += temporario
+                quantidade += temporario+ " "
                 break
-#        elif 'q9' in estadoAtual:
-#            ingrediente += temporario
-#        elif 'q13' in estadoAtual and modMedida == False:
-#            if ingrediente.rstrip()[len(ingrediente.rstrip())-2:] == 'de':
-#                medida = ingrediente[:len(ingrediente)-3]
-#                temporario, ingrediente = '', ''
-#        elif 'q14' in estadoAtual:
-#            modMedida = True
-#            ingrediente += temporario
-    print quantidade
+            elif temporario == 'de':
+                arquivo.write('Medida:' + ingrediente + ' TESTETESTESTE ')
+                print(simboloEstado[1])
+                if estado == 'q13':
+                    medida = ingrediente
+            elif estado == 'q14':
+                ingrediente += temporario + " "
+            elif estado in ['q9']:
+                ingrediente += temporario+ " "
+                break
+    print ('Quantidade:' + quantidade+ ' Medida:' + medida + ' Ingrediente:' + ingrediente)
+    arquivo.write('Quantidade:' + quantidade+ ' Medida:' + medida + ' Ingrediente:' + ingrediente)
         
 if __name__ == "__main__":
     nfa = NFA.arquivoNFA("nfa.txt")
     nfa.processaSimbolo = processaSimboloReceita
     
     receitas = leituraReceitas()
-    nfa.executa("100gr manteiga".strip())
-    trataRespostaReceita(nfa)
-#    for receita in receitas:
-#        for linha in receita:
-#            nfa.executa(linha.strip())
-#            trataRespostaReceita(nfa)
+#    nfa.executa("100gr manteiga".strip())
+#    trataRespostaReceita(nfa)
+    arquivo = open('../saida.txt','w')
+    for receita in receitas:
+        for linha in receita:
+            nfa.executa(linha.strip())
+            arquivo.write(linha.strip() +"\n")
+            trataRespostaReceita(nfa, arquivo)
+            arquivo.write("\n")
+    arquivo.close()
 #    arquivo = open('saida.csv','w')
 #    arquivo.write('qtde;medida;ingrediente\n')
 #    for i in resultado:

@@ -46,18 +46,25 @@ class NFA:
         self.simbolosESeusEstados = []
         
         estadosAtuais.append(self.estadoInicial)
-#        for simbolo in self.splitNFA(sentenca):
-        for simbolo in sentenca:
+        for simbolo in self.splitNFA(sentenca):
+#        for simbolo in sentenca:
             simboloProcessado = self.processaSimbolo(simbolo)
             proximosEstados = []
-            for estadoAtual in estadosAtuais:
+            for proximoEstado in estadosAtuais:
                 try:
-                    for cadaTransicao in self.transicao[estadoAtual][simboloProcessado]:
+                    for cadaTransicao in self.transicao[proximoEstado][simboloProcessado]:
                         proximosEstados.append(cadaTransicao)
                 except KeyError:
                     pass
-            estadosAtuais = self.epsilonAlcancavel(estadosAtuais)
-            estadosAtuais += proximosEstados
+            print estadosAtuais
+            print simboloProcessado + " _ simbolo"
+            proximosEstados += self.epsilonAlcancavel(estadosAtuais)
+            
+            estadosAtuais = []
+            for proximoEstado in proximosEstados:
+                if proximoEstado not in estadosAtuais:
+                    estadosAtuais.append(proximoEstado)
+            
             self.simbolosESeusEstados += [(simbolo, estadosAtuais)]
                     # adiciona nas variaveis os caracteres de importancia
 
