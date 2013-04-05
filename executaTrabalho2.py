@@ -61,21 +61,17 @@ def trataRespostaReceita(nfa, arquivo):
     medida = ""
     for simboloEstado in nfa.simbolosESeusEstados:
         temporario = simboloEstado[0]
-        if simboloEstado == temporario:
-            arquivo.write(simboloEstado[1])
         for estado in simboloEstado[1]:
             if estado in ['q1', 'q6', 'q7']:
-                quantidade += temporario+ " "
+                quantidade += temporario
                 break
-            elif temporario == 'de':
-                arquivo.write('Medida:' + ingrediente + ' TESTETESTESTE ')
-                print(simboloEstado[1])
-                if estado == 'q13':
-                    medida = ingrediente
+            elif estado == 'q9' and ingrediente.rstrip()[len(ingrediente.rstrip())-2:] == 'de':   
+                medida = ingrediente[:len(ingrediente)-3]
+                ingrediente = ''
             elif estado == 'q14':
-                ingrediente += temporario + " "
+                ingrediente += temporario
             elif estado in ['q9']:
-                ingrediente += temporario+ " "
+                ingrediente += temporario
                 break
     print ('Quantidade:' + quantidade+ ' Medida:' + medida + ' Ingrediente:' + ingrediente)
     arquivo.write('Quantidade:' + quantidade+ ' Medida:' + medida + ' Ingrediente:' + ingrediente)

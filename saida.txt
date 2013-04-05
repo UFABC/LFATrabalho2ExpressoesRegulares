@@ -1,214 +1,310 @@
 200 ml de leite
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:200  Medida: Ingrediente:leite 
+Debug:q9 ml
+Quantidade:200 Medida:ml Ingrediente: leite
 2 colheres de maizena
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:2  Medida: Ingrediente:maizena 
+Debug:q9 colheres
+Quantidade:2 Medida:colheres Ingrediente: maizena
 5 colheres de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:5  Medida: Ingrediente:acucar 
+Debug:q9 colheres
+Quantidade:5 Medida:colheres Ingrediente: acucar
 1 cenoura media (ralada)
-Quantidade:1  Medida: Ingrediente:(ralada) 
+Quantidade:1 Medida: Ingrediente:cenoura media (ralada)
 1 colher de margarina sem sal.
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:margarina sem sal. 
+Debug:q9 colher
+Quantidade:1 Medida:colher Ingrediente: margarina sem sal.
 1 pcte de trigo para kibe
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:trigo para kibe 
+Debug:q9 pcte
+Quantidade:1 Medida:pcte Ingrediente: trigo para kibe
 1/2 maco de rucula
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1/2  Medida: Ingrediente:rucula 
+Debug:q9 maco
+Quantidade:12 Medida:maco Ingrediente: rucula
 400g de ricota picada
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:400  Medida: Ingrediente:ricota picada 
+Quantidade:400 Medida: Ingrediente: de ricota picada
 15 a 20 tomates cereja
-Quantidade:15 20  Medida: Ingrediente:
+Quantidade:1520 Medida: Ingrediente:a  tomates cereja
 200g de salame italiano (pode ser mais)
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:200  Medida: Ingrediente:salame italiano (pode ser mais) 
+Quantidade:200 Medida: Ingrediente: de salame italiano (pode ser mais)
 2 laranjas
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:laranjas
 2 limoes
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:limoes
 2 saches de caldo de legumes em po
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Quantidade:2  Medida: Ingrediente:caldo legumes em po 
+Debug:q9 saches
+Debug:q9  caldo
+Quantidade:2 Medida: caldo Ingrediente: legumes em po
 sal a gosto
-Quantidade: Medida: Ingrediente:a gosto 
+Quantidade: Medida: Ingrediente:al a gosto
 1 pacote de massa fresca para lasanha 400g ( dispensa cozimento )
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1 400  Medida: Ingrediente:massa fresca para lasanha g ( dispensa cozimento ) 
+Debug:q9 pacote
+Quantidade:1400 Medida:pacote Ingrediente: massa fresca para lasanha g ( dispensa cozimento )
 300 g de presunto em tirinhas
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:300  Medida: Ingrediente:presunto em tirinhas 
+Debug:q9 g
+Quantidade:300 Medida:g Ingrediente: presunto em tirinhas
 300 g de mussarela em tirinhas
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:300  Medida: Ingrediente:mussarela em tirinhas 
+Debug:q9 g
+Quantidade:300 Medida:g Ingrediente: mussarela em tirinhas
 Queijo parmesao ralado a gosto para polvilhar
-Quantidade: Medida: Ingrediente:parmesao ralado a gosto para polvilhar 
+Quantidade: Medida: Ingrediente:ueijo parmesao ralado a gosto para polvilhar
 Molho de tomate
-Medida: TESTETESTESTE Quantidade: Medida: Ingrediente:tomate 
+Quantidade: Medida: Ingrediente:olho de tomate
 1 cebola picadinha
-Quantidade:1  Medida: Ingrediente:
+Quantidade:1 Medida: Ingrediente:cebola picadinha
 2 dentes de alho picadinhos
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:2  Medida: Ingrediente:alho picadinhos 
+Debug:q9 d
+Debug:q9 ntes
+Quantidade:2 Medida:ntes Ingrediente: alho picadinhos
 3 colheres de sopa de azeite
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:3  Medida: Ingrediente:sopa azeite 
+Debug:q9 colheres
+Debug:q9  sopa
+Quantidade:3 Medida: sopa Ingrediente: azeite
 3 tomates maduros picados
-Quantidade:3  Medida: Ingrediente:picados 
+Quantidade:3 Medida: Ingrediente:tomates maduros picados
 1 caixa de molho pronto pomarola 520g
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1 520  Medida: Ingrediente:molho pronto pomarola g 
+Debug:q9 caixa
+Quantidade:1520 Medida:caixa Ingrediente: molho pronto pomarola g
 2 tabletes de caldo de galinha
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Quantidade:2  Medida: Ingrediente:caldo galinha 
+Debug:q9 tabletes
+Debug:q9  caldo
+Quantidade:2 Medida: caldo Ingrediente: galinha
 250 ml de agua
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:250  Medida: Ingrediente:agua 
+Debug:q9 ml
+Quantidade:250 Medida:ml Ingrediente: agua
 1 colher de sopa de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:1  Medida: Ingrediente:sopa acucar 
+Debug:q9 colher
+Debug:q9  sopa
+Quantidade:1 Medida: sopa Ingrediente: acucar
 Salsinha a gosto
-Quantidade: Medida: Ingrediente:a gosto 
+Quantidade: Medida: Ingrediente:alsinha a gosto
 Molho branco
-Quantidade: Medida: Ingrediente:branco 
+Quantidade: Medida: Ingrediente:olho branco
 750 ml de leite
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:750  Medida: Ingrediente:leite 
+Debug:q9 ml
+Quantidade:750 Medida:ml Ingrediente: leite
 2 colheres de sopa de amido de milho
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa amido  TESTETESTESTE Medida:sopa amido  TESTETESTESTE Medida:sopa amido  TESTETESTESTE Quantidade:2  Medida: Ingrediente:sopa amido milho 
+Debug:q9 colheres
+Debug:q9  sopa
+Debug:q9  amido
+Quantidade:2 Medida: amido Ingrediente: milho
 1 tablete de caldo de galinha
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Quantidade:1  Medida: Ingrediente:caldo galinha 
+Debug:q9 tablete
+Debug:q9  caldo
+Quantidade:1 Medida: caldo Ingrediente: galinha
 1 colher de sopa de manteiga
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:1  Medida: Ingrediente:sopa manteiga 
+Debug:q9 colher
+Debug:q9  sopa
+Quantidade:1 Medida: sopa Ingrediente: manteiga
 Um pouquinho de sal se necessario
-Medida:pouquinho  TESTETESTESTE Medida:pouquinho  TESTETESTESTE Quantidade: Medida: Ingrediente:pouquinho sal se necessario 
+Quantidade: Medida: Ingrediente:m pouquinho de sal se necessario
 Noz moscada ralada na hora e manjericao a gosto
-Quantidade: Medida: Ingrediente:moscada ralada na hora e manjericao a gosto 
+Quantidade: Medida: Ingrediente:oz moscada ralada na hora e manjericao a gosto
 2 abobrinhas
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:abobrinhas
 2 cenouras
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:cenouras
 4 batatas
-Quantidade:4  Medida: Ingrediente:
+Quantidade:4 Medida: Ingrediente:batatas
 300 g de vagem
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:300  Medida: Ingrediente:vagem 
+Debug:q9 g
+Quantidade:300 Medida:g Ingrediente: vagem
 4 mandioquinhas
-Quantidade:4  Medida: Ingrediente:
+Quantidade:4 Medida: Ingrediente:mandioquinhas
 4 dentes de alho
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:4  Medida: Ingrediente:alho 
+Debug:q9 d
+Debug:q9 ntes
+Quantidade:4 Medida:ntes Ingrediente: alho
 2 colheres de sopa de margarina sem sal
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:2  Medida: Ingrediente:sopa margarina sem sal 
+Debug:q9 colheres
+Debug:q9  sopa
+Quantidade:2 Medida: sopa Ingrediente: margarina sem sal
 2 tabletes de clado de frango/ legumes
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:clado  TESTETESTESTE Medida:clado  TESTETESTESTE Medida:clado  TESTETESTESTE Quantidade:2  Medida: Ingrediente:clado frango/ legumes 
+Debug:q9 tabletes
+Debug:q9  clado
+Quantidade:2 Medida: clado Ingrediente: frango/ legumes
 azeite a gosto
-Quantidade: Medida: Ingrediente:a gosto 
+Quantidade: Medida: Ingrediente:zeite a gosto
 salsa a gosto
-Quantidade: Medida: Ingrediente:a gosto 
+Quantidade: Medida: Ingrediente:alsa a gosto
 200gr chocolate meio amargo
-Quantidade:200  Medida: Ingrediente:meio amargo 
+Quantidade:200 Medida: Ingrediente:r chocolate meio amargo
 100gr manteiga
-Quantidade:100  Medida: Ingrediente:
+Quantidade:100 Medida: Ingrediente:r manteiga
 3 ovos
-Quantidade:3  Medida: Ingrediente:
+Quantidade:3 Medida: Ingrediente:ovos
 1 caixa de creme de leite
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Quantidade:1  Medida: Ingrediente:creme leite 
+Debug:q9 caixa
+Debug:q9  creme
+Quantidade:1 Medida: creme Ingrediente: leite
 3 colheres de sopa de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:3  Medida: Ingrediente:sopa acucar 
+Debug:q9 colheres
+Debug:q9  sopa
+Quantidade:3 Medida: sopa Ingrediente: acucar
 1 bandeja de morangos (decorar)
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:morangos (decorar) 
+Debug:q9 ba
+Debug:q9 ja
+Debug:q9  morangos 
+Quantidade:1 Medida: morangos  Ingrediente:corar)
 3  ovos
-Quantidade:3  Medida: Ingrediente:
+Quantidade:3 Medida: Ingrediente:
 1 lata de creme de leite light
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Quantidade:1  Medida: Ingrediente:creme leite light 
+Debug:q9 lata
+Debug:q9  creme
+Quantidade:1 Medida: creme Ingrediente: leite light
 4 colheres (sopa) de adocante culinario
-Medida: TESTETESTESTE Quantidade:4  Medida: Ingrediente:
+Debug:q9 colheres (sopa)
+Quantidade:4 Medida:colheres (sopa) Ingrediente: adocante culinario
 200g de chocolate meio amargo dietetico
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:200  Medida: Ingrediente:chocolate meio amargo dietetico 
+Quantidade:200 Medida: Ingrediente: de chocolate meio amargo dietetico
 1,5 xicaras de grao de bico que ficaram de molho por uma noite
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:grao  TESTETESTESTE Medida:grao  TESTETESTESTE Medida:grao  TESTETESTESTE Medida:grao bico que ficaram  TESTETESTESTE Medida:grao bico que ficaram  TESTETESTESTE Medida:grao bico que ficaram  TESTETESTESTE Quantidade:1,5  Medida: Ingrediente:grao bico que ficaram molho por uma noite 
+Debug:q9 xicaras
+Debug:q9  grao
+Debug:q9  bico que ficaram
+Quantidade:15 Medida: bico que ficaram Ingrediente: molho por uma noite
 2,5 litros de caldo de frango
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Medida:caldo  TESTETESTESTE Quantidade:2,5  Medida: Ingrediente:caldo frango 
+Debug:q9 litros
+Debug:q9  caldo
+Quantidade:25 Medida: caldo Ingrediente: frango
 2 cebolas grandes, em pedacos
-Quantidade:2  Medida: Ingrediente:
+Debug:q9 cebolas gra
+Quantidade:2 Medida:cebolas gra Ingrediente:s, em pedacos
 1/2 kg de tomates sem casca e sementes, em pedacos
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1/2  Medida: Ingrediente:tomates sem casca e sementes, em pedacos 
+Debug:q9 kg
+Quantidade:12 Medida:kg Ingrediente: tomates sem casca e sementes, em pedacos
 2 damascos secos, bem picados
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:damascos secos, bem picados
 2 colheres de sopa de coentro picado
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:2  Medida: Ingrediente:sopa coentro picado 
+Debug:q9 colheres
+Debug:q9  sopa
+Quantidade:2 Medida: sopa Ingrediente: coentro picado
 sal e pimenta do reino a gosto
-Quantidade: Medida: Ingrediente:e pimenta do reino a gosto 
+Quantidade: Medida: Ingrediente:al e pimenta do reino a gosto
 1 cebola descascada
-Quantidade:1  Medida: Ingrediente:
+Debug:q9 cebola
+Quantidade:1 Medida:cebola Ingrediente:scascada
 3 peitos de frango (aprox 400 g) cortados em cubos
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:3 400  Medida: Ingrediente:frango (aprox g) cortados em cubos 
+Debug:q9 peitos
+Quantidade:3400 Medida:peitos Ingrediente: frango (aprox  g) cortados em cubos
 2 ovos
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:ovos
 2 fatias de pao de forma sem casca, encharcados e espremidos
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:pao  TESTETESTESTE Medida:pao  TESTETESTESTE Medida:pao  TESTETESTESTE Quantidade:2  Medida: Ingrediente:pao forma sem casca, encharcados e espremidos 
+Debug:q9 fatias
+Debug:q9  pao
+Quantidade:2 Medida: pao Ingrediente: forma sem casca, encharcados e espremidos
 sal e pimenta do reino a gosto
-Quantidade: Medida: Ingrediente:e pimenta do reino a gosto 
+Quantidade: Medida: Ingrediente:al e pimenta do reino a gosto
 1 caixinha de leite condensado
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:leite condensado 
+Debug:q9 caixinha
+Debug:q9  leite co
+Quantidade:1 Medida: leite co Ingrediente:nsado
 2 medidas da caixa de leite integral
-Medida:caixa  TESTETESTESTE Medida:caixa  TESTETESTESTE Medida:caixa  TESTETESTESTE Quantidade:2  Medida: Ingrediente:caixa leite integral 
+Debug:q9 medidas da caixa
+Quantidade:2 Medida:medidas da caixa Ingrediente: leite integral
 2 ovos
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:ovos
 1 colher de cha de essencia de baunilha
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:cha  TESTETESTESTE Medida:cha  TESTETESTESTE Medida:cha  TESTETESTESTE Medida:cha essencia  TESTETESTESTE Medida:cha essencia  TESTETESTESTE Medida:cha essencia  TESTETESTESTE Quantidade:1  Medida: Ingrediente:cha essencia baunilha 
+Debug:q9 colher
+Debug:q9  cha
+Debug:q9  essencia
+Quantidade:1 Medida: essencia Ingrediente: baunilha
 1 x de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:acucar 
+Debug:q9 x
+Quantidade:1 Medida:x Ingrediente: acucar
 1 Moranga cabotia  pequena
-Quantidade:1  Medida: Ingrediente:pequena 
+Quantidade:1 Medida: Ingrediente:Moranga cabotia  pequena
 1 cenoura grande
-Quantidade:1  Medida: Ingrediente:
+Quantidade:1 Medida: Ingrediente:cenoura grande
 6 dentes de alho
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:6  Medida: Ingrediente:alho 
+Debug:q9 d
+Debug:q9 ntes
+Quantidade:6 Medida:ntes Ingrediente: alho
 1 maco de salsinha e cebolinha
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:salsinha e cebolinha 
+Debug:q9 maco
+Quantidade:1 Medida:maco Ingrediente: salsinha e cebolinha
 200g de nata
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:200  Medida: Ingrediente:nata 
+Quantidade:200 Medida: Ingrediente: de nata
 2 espigas de milho
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:2  Medida: Ingrediente:milho 
+Debug:q9 espigas
+Quantidade:2 Medida:espigas Ingrediente: milho
 1 maco de manjericao
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:manjericao 
+Debug:q9 maco
+Quantidade:1 Medida:maco Ingrediente: manjericao
 1 cebola grande
-Quantidade:1  Medida: Ingrediente:
+Quantidade:1 Medida: Ingrediente:cebola grande
 1 pimentao verde
-Quantidade:1  Medida: Ingrediente:
+Quantidade:1 Medida: Ingrediente:pimentao verde
 Queijo parmesao ralado
-Quantidade: Medida: Ingrediente:parmesao ralado 
+Quantidade: Medida: Ingrediente:ueijo parmesao ralado
 150g de queijo mussarela ralado ou queijo colonial
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:150  Medida: Ingrediente:queijo mussarela ralado ou queijo colonial 
+Quantidade:150 Medida: Ingrediente: de queijo mussarela ralado ou queijo colonial
 Pimenta malagueta a gosto
-Quantidade: Medida: Ingrediente:malagueta a gosto 
+Quantidade: Medida: Ingrediente:imenta malagueta a gosto
 Pimenta preta moida a gosto
-Quantidade: Medida: Ingrediente:preta moida a gosto 
+Quantidade: Medida: Ingrediente:imenta preta moida a gosto
 1/2 xicara de mostarda escura
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1/2  Medida: Ingrediente:mostarda escura 
+Debug:q9 xicara
+Quantidade:12 Medida:xicara Ingrediente: mostarda escura
 1 Brocolis
-Quantidade:1  Medida: Ingrediente:
+Quantidade:1 Medida: Ingrediente:Brocolis
 Azeite
-Quantidade: Medida: Ingrediente:
+Quantidade: Medida: Ingrediente:zeite
 Sal a gosto
-Quantidade: Medida: Ingrediente:a gosto 
+Quantidade: Medida: Ingrediente:al a gosto
 1 colher de cha de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:cha  TESTETESTESTE Medida:cha  TESTETESTESTE Medida:cha  TESTETESTESTE Quantidade:1  Medida: Ingrediente:cha acucar 
+Debug:q9 colher
+Debug:q9  cha
+Quantidade:1 Medida: cha Ingrediente: acucar
 500g de massa talharim
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:500  Medida: Ingrediente:massa talharim 
+Quantidade:500 Medida: Ingrediente: de massa talharim
 5 litros de agua
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:5  Medida: Ingrediente:agua 
+Debug:q9 litros
+Quantidade:5 Medida:litros Ingrediente: agua
 Oleo
-Quantidade: Medida: Ingrediente:
+Quantidade: Medida: Ingrediente:leo
 Sal
-Quantidade: Medida: Ingrediente:
+Quantidade: Medida: Ingrediente:al
 1 ovo
-Quantidade:1  Medida: Ingrediente:
+Quantidade:1 Medida: Ingrediente:ovo
 1 14 de xicara de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:xicara  TESTETESTESTE Medida:xicara  TESTETESTESTE Quantidade:1 14  Medida: Ingrediente:xicara acucar 
+Debug:q9 d
+Debug:q9  xicara
+Quantidade:114 Medida: xicara Ingrediente: acucar
 250 g de maisena
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:250  Medida: Ingrediente:maisena 
+Debug:q9 g
+Quantidade:250 Medida:g Ingrediente: maisena
 250 g de farinha de semola ou de trigo
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:farinha  TESTETESTESTE Medida:farinha  TESTETESTESTE Medida:farinha  TESTETESTESTE Medida:farinha semola ou  TESTETESTESTE Medida:farinha semola ou  TESTETESTESTE Medida:farinha semola ou  TESTETESTESTE Quantidade:250  Medida: Ingrediente:farinha semola ou trigo 
+Debug:q9 g
+Debug:q9  farinha
+Debug:q9  semola ou
+Quantidade:250 Medida: semola ou Ingrediente: trigo
 175 g de creme de leite fresco (nata)(metade do pote)
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Quantidade:175  Medida: Ingrediente:creme leite fresco (nata)(metade do pote) 
+Debug:q9 g
+Debug:q9  creme
+Debug:q9  leite fresco (nata)(met
+Quantidade:175 Medida: leite fresco (nata)(met Ingrediente: do pote)
 1 colher de sopa de manteiga
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:1  Medida: Ingrediente:sopa manteiga 
+Debug:q9 colher
+Debug:q9  sopa
+Quantidade:1 Medida: sopa Ingrediente: manteiga
 300 g de chocolate meio-amargo
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:300  Medida: Ingrediente:chocolate meio-amargo 
+Debug:q9 g
+Quantidade:300 Medida:g Ingrediente: chocolate meio-amargo
 12 caixinha de creme de leite
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Quantidade:12  Medida: Ingrediente:creme leite 
+Debug:q9 caixinha
+Debug:q9  creme
+Quantidade:12 Medida: creme Ingrediente: leite
 1 lata de leite condensado
-Medida: TESTETESTESTE Medida: TESTETESTESTE Quantidade:1  Medida: Ingrediente:leite condensado 
+Debug:q9 lata
+Debug:q9  leite co
+Quantidade:1 Medida: leite co Ingrediente:nsado
 suco de 2 limoes
-Medida: TESTETESTESTE Quantidade: Medida: Ingrediente:2 limoes 
+Quantidade: Medida: Ingrediente:uco de 2 limoes
 175 g de creme de leite fresco (nata)(a outra metade do pote)
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Medida:creme  TESTETESTESTE Quantidade:175  Medida: Ingrediente:creme leite fresco (nata)(a outra metade do pote) 
+Debug:q9 g
+Debug:q9  creme
+Debug:q9  leite fresco (nata)(a outra met
+Quantidade:175 Medida: leite fresco (nata)(a outra met Ingrediente: do pote)
 2 claras
-Quantidade:2  Medida: Ingrediente:
+Quantidade:2 Medida: Ingrediente:claras
 6 colheres de sopa de acucar
-Medida: TESTETESTESTE Medida: TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Medida:sopa  TESTETESTESTE Quantidade:6  Medida: Ingrediente:sopa acucar 
+Debug:q9 colheres
+Debug:q9  sopa
+Quantidade:6 Medida: sopa Ingrediente: acucar

@@ -3,7 +3,7 @@ criarTransicao {
     q1 = NUM:q1; ESP:q8; epsilon:q0
     q2 = LET:q4; epsilon:q0
     q3 = VIR:q5; epsilon:q0
-    q4 = LET:q4; ESP:q0; NUM:q6; epsilon:q4
+    q4 = LET:q4; ESP:q0;  NUM:q6; epsilon:q4
     q5 = NUM:q7
     q6 = NUM:q6; ESP:q8; epsilon:q4
     q7 = NUM:q7; ESP:q8; epsilon:q4
